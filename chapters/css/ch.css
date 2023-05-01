@@ -1,0 +1,59 @@
+.wrapper {
+    /* background-image: url(/img/back-page2.jpg); */
+    width: 800px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-left: 200px; */
+    margin: 30px auto;
+    border: #aeacac;
+    background-color: #eeddb7;
+    color: #4d3423;
+
+
+}
+
+header {
+    background-color: rgb(87, 86, 85);
+    border-radius: 50%;
+    color: #fff;
+    padding: 6px 0 6px 0;
+    margin: 8px 0 16px 0;
+
+}
+
+nav {
+    transition: .5s;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.home:hover {
+    transform: scale(1.8)
+}
+
+.next:hover {
+    transform: scale(1.4);
+}
+
+.back:hover {
+    transform: scale(1.4);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.home {
+    background-attachment: fixed;
+    backface-visibility: inherits;
+}
+
+.back {
+    background-color: #b98a8a;
+}
+
+.next {
+    background-color: rgb(86, 221, 134);
+}

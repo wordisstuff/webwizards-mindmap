@@ -1,0 +1,58 @@
+body {
+    display: block;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.book {
+    background-color: rgb(185, 124, 124);
+    display: block;
+    justify-content: space-between;
+
+    width: 400px;
+    height: 400px;
+}
+
+.book1 {
+    background-color: brown;
+    display: block;
+
+    width: 400px;
+    height: 400px;
+}
+
+.book2 {
+    background-color: blueviolet;
+    display: block;
+    justify-self: end;
+
+    width: 400px;
+    height: 400px;
+}
+
+.book3 {
+    background-color: blue;
+    display: block;
+
+    width: 400px;
+    height: 400px;
+
+}
+
+.book4 {
+    background-color: aquamarine;
+    display: block;
+
+    width: 400px;
+    height: 400px;
+}
+
+.mainbook {
+    background-color: black;
+    display: inline-flex;
+}
+
+.mainbook2 {
+    background-color: black;
+    display: inline-flex;
+}
